@@ -1,0 +1,139 @@
+body{
+    background: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: wheat;
+    font-size: 1rem;
+}
+ul{
+    text-decoration: none;
+}
+.fa{
+    color: solid rgba(66, 8, 8, 0.322);
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: 100;
+    margin: 20px;
+}
+.bold{
+    font-weight: 500;
+    font-size: 3.3rem;
+    color: wheat;
+    border-radius: 10px;
+    padding: 3px 10px;
+}
+.head-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.container p{
+    font-size: 2.8rem;
+}
+dialog{
+    background: wheat;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 400px;
+    color: black;
+    text-align: center;
+    padding: 10px 0px 30px 0px;
+    font-size: 25px;
+
+}
+input{
+    height: 30px;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px;
+}
+b{
+    color: wheat;
+    background: rgba(44, 4, 4, 0.671);
+    /* border: transparent; */
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 0px 10px;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.flexlistBig{
+    height: 450px;
+    width: 35%;
+    color: #3D2C8D;
+    background: #84DFFF;
+    border: 3px solid #516BEB;
+    border-radius: 20px;
+    position: relative;
+    left: 40%;
+    text-align: center;
+}
+.footer{
+    height: 50px;
+    width: 120px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.footer i{
+    padding: 10px;
+}
+.flexlist{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.listnewitem{
+    height: 500px;
+    width: 250px;
+    text-align: center;
+    font-size: 25px;
+    color: #261C2C;
+}
+.flexlist1{
+    height: 250px;
+    width: 160px;
+    color: rgba(66, 8, 8, 0.226);
+    background: wheat;
+    border-radius: 20px;
+    border: 2px solid rgba(66, 8, 8, 0.13);
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    cursor: pointer;
+}
+.footerlist{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.listTodo,.new-list1{
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+}
+.listTodo li{
+    padding: 3px;
+}
+li button{
+    background: rgb(9, 32, 75);
+    color: cornsilk;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.taskND{
+    text-decoration: line-through;
+    color: red;
+}
+.newCard-1{
+    background-color: cyan;
+    border: 2px solid cadetblue;
+    border-radius: 20px;
+    height: 100px;
+    width: 100px;
+}

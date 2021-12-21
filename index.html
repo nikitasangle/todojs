@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:wght@100;900">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"crossorigin="anonymous" />
+</head>
+<body>
+    <div class="container" id="topb1">
+        <div class="head-flex" id="">
+            <p class="title1"><span class="bold">Task</span> list</p>
+            <p class="butn" id="addOne"><i class="fa fa-plus-circle"></i>  Add List</p>
+        </div>
+        <ul class="flexlist" id="list-1">
+        </ul>
+        <span id="nolist">No items in the Todo List</span>
+
+    </div>
+    <div  class="container" id="topb2">
+        <div class="head-flex">
+        <p class="back" id="back2"><i class="fa fa-chevron-circle-left"></i> Back</p>
+        <p class="bold" id="title2">Trip to Paris</p>
+        <p class="butn" id="addTwo"><i class="fa fa-plus-circle"></i></p>
+        </div>
+        <div class="flexlistBig" id="lowCard">
+            <div class="cardhead">
+                <p class="cardtitle" id="title2-1">Trip to Paris</p><hr>
+                <div class="li-style" id="card-spc">
+                </div>
+            </div>
+            <ul class="new-list1" id="new-list">
+            </ul>
+            <div class="footerlist" id="footer1">
+            </div>
+        </div>
+    </div>
+    <dialog class="popup" id="pop1">
+        <p>Add New List</p>
+        <input type="text" name="list1" id="list1" placeholder="Add List" value="todo1"><br>
+        <b id="addBtn1">ADD</b><b class="close">CLOSE</b>
+    </dialog>
+    <dialog class="popup" id="pop2">
+        <p>Add New Item</p>
+        <input type="text" name="list2" id="list2" placeholder="Add List" value="task1"><br>
+        <b id="addBtn2">ADD</b><b class="close" id="closed">CLOSE</b>
+    </dialog>
+    <script src="./index.js"></script>
+</body>
+</html>
